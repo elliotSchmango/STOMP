@@ -22,3 +22,10 @@ services:
       - kafka
     volumes:
       - ./data:/data
+
+  model_service:
+    build: ./model_service
+    depends_on:
+      - kafka
+    ports:
+      - "8000:8000"
