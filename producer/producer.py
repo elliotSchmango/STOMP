@@ -4,7 +4,7 @@ import time
 from kafka import KafkaProducer
 from kafka.errors import NoBrokersAvailable
 
-DATA_PATH = "/data/train_FD001.txt"
+DATA_PATH = "/data/test_FD001.txt"
 
 def connect_to_kafka():
     while True:
