@@ -29,3 +29,5 @@ services:
       - kafka
     ports:
       - "8000:8000"
+    volumes:
+      - ./model_service:/app/model_service
