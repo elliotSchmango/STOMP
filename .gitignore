@@ -1,3 +1,7 @@
 #csv dataset on nasa turbofan engine telemetry
-/data/train_FD001.txt
+data/train_FD001.txt
 data/test_FD001.txt
+
+#model config in model_service
+model_service/normalization.json
+model_service/lstm_model.pt
